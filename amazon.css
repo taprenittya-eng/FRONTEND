@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 100px;
+}
+
+.logo {
+    background-image: url("logo1.png");
+    height: 50px;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 15px;
+}
+
+.border {
+    border: 1.5px solid transparent;
+}
+
+.border:hover {
+    border: 1.5px solid white;
+}
+
+.add1 {
+    color: grey;
+    font-size: 0.85rem;
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+
+.nav-add {
+    margin: 15px;
+}
+
+.nav-search {
+    display: flex;
+    height: 40px;
+    width: 620px;
+    background-color: orchid;
+    justify-content: space-evenly;
+    border-radius: 4px;
+    align-items: center;
+    margin-left: 10px;
+}
+.nav-search:hover{
+    border:2px solid rgb(247, 227, 51) ;
+}
+
+.search-select {
+    background-color: #f3f3f3;
+    width: 50px;
+    height: 100%;
+    text-align: center;
+    border: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.search-input {
+    flex: 1;
+    height: 100%;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    padding: 0 10px;
+}
+
+.search-icon {
+    width: 45px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    background-color: rgb(247, 227, 51);
+    border: none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #01010f;
+}
+.hello{
+    font-size:12px;
+}
+.accounts{
+font-size: 14px;
+font-weight:900px;
+}
+.nav-cart i{
+    display:flex;
+    font-size:30px;
+}
+.nav-cart{
+    display:flex;
+font-size: 14px;
+align-items: baseline;
+}
+.panel{
+    background-color: #222f3d;
+    color:white;
+    display: flex;
+    justify-content: space-evenly;
+    height:40px;
+    align-items: center;
+}
+.hamburger i{
+    font-size:18px;
+}
+.hamburger{
+    font-size:14px;
+    align-items: center;
+    display: flex;
+}
+.panel-options p {
+    display: inline;
+    margin-left: 10px;
+    font-size:16px;
+}
+.panel-options{
+ width:70%;
+}
+.hero-img{
+    background-image: url("img1.jpg");
+    height:250px;
+    background-size: cover;
+}
+
+
+.shop-cards{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    background-color:#222f3d ;
+}
+.box{
+    height:450px;
+    width:23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.box-img{
+    height:300px;
+    background-size: cover;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.box-content{
+    margin-left:10px;
+    margin-right:10px;
+}
+.foot-panel1{
+    background-color:#37475a ;
+    height:50px;
+    display:flex;
+    justify-content:center;
+    color:white;
+    align-items: center;
+    font-size: 14px;
+}
+.foot-panel2{
+    background-color: #232f3e;
+    color:white;
+    height:350px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top:20px;
+}
+ul a{
+    display: flex;
+    font-size:14px;
+    margin-top: 10px;
+    color:#dddddd;
+}
+.foot-panel3{
+    background-color:#232f3e ;
+    height:70px;
+    display:flex;
+    justify-content:center;
+    color:white;
+    align-items: center;
+    font-size: 14px;
+    border-top: 0.5px solid grey;
+}
+.foot-logo {
+    height: 50px;
+    width: 100px;
+    align-items: center;
+    display:flex;
+}
+
+.logo {
+    background-image: url("logo1.png");
+    height: 27px;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.foot-panel4{
+    background-color: #131a22;
+    color:white;
+    height:80px;
+    text-align: center;
+}
+.pages{
+font-size:12px;
+padding-top:25px;
+}
+.copyright{
+    font-size:12px;
+    padding-top:5px;
+}
