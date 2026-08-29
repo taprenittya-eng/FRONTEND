@@ -1,0 +1,10 @@
+.form-grp{
+ margin:10px;
+}
+button {
+    margin-top: 5px;
+}
+label {
+    display:flex;
+    margin-bottom: 5px;
+}
