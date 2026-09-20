@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+<div class="header">
+    <div class="container"> <header class="d-flex flex-wrap justify-content-center py-2 mb-4 border-bottom"> <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"> <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"/> </svg>  <span class="fs-4"> Nittya Tapre</span> </a> <ul class="nav nav-pills"> <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li> <li class="nav-item"><a href="#" class="nav-link">About me</a></li> <li class="nav-item"><a href="#" class="nav-link">Gallery</a></li> <li class="nav-item"><a href="#" class="nav-link">Contact</a></li> </ul> </header> </div>
+</div>
+<div class="home">
+    <div class="container">
+        <div class="px-4 py-5 my-5 text-center"><h1 class="display-5 fw-bold text-body-emphasis">Hello!</h1> <div class="col-lg-6 mx-auto"> <p class="lead mb-4">Quickly get to know about me through this one-page website I built using Bootstrap,The Gallery here consist some of my best Artworks.</p> </div> </div>
+    </div>
+</div>
+<div class="about-me">
+    <div class="container col-xxl-8 px-4 py-5"> <div class="row flex-lg-row-reverse align-items-center g-5 py-5"> <div class="col-10 col-sm-8 col-lg-6"> <img src="about-me-pic.jpeg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy"> </div> <div class="col-lg-6"> <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">About me</h1> <p class="lead">I’m a final-year Electronics and Telecommunication Engineering student with a passion for graphic design, frontend development, and creative problem-solving. I enjoy combining my engineering knowledge with design and technology to create visually appealing and user-friendly digital experiences. I’m always exploring new skills, building projects, and turning ideas into meaningful solutions.</p> <div class="d-grid gap-3 d-md-flex justify-content-md-start flex-wrap">
+    <button type="button" class="btn btn-outline-secondary btn-lg px-2 me-md-2">Graphic design</button>
+    <button type="button" class="btn btn-outline-secondary btn-lg px-2">HTML/CSS</button>
+    <button type="button" class="btn btn-outline-secondary btn-lg px-2">C++</button>
+
+    <div class="w-100"></div>
+
+    <button type="button" class="btn btn-outline-secondary btn-lg px-2">JavaScript</button>
+</div> </div> </div> </div>
+</div>
+<div class="container col-xxl-8 px-20 py-5"><div class="row flex-lg-row-reverse align-items-center g-10 py-10"><div class="col-lg-15"><h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Gallery</h1></div></div> </div>
+<div class="album py-5 bg-body-tertiary"> <div class="container"> <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3"> <div class="col"> <div class="card shadow-sm"> <img src="1.jpg" alt="first"><title>Eye</title><rect width="100%" height="100%" fill="#55595c"></rect>
+    <text x="50%" y="50%" fill="#eceeef" dy=".3em">Eye</text></svg> <div class="card-body"> <div class="d-flex justify-content-between align-items-center"> <div class="btn-group"> <button type="button" class="btn btn-sm btn-outline-secondary">View</button>  
+    </div>  </div> </div> </div> </div> <div class="col"> <div class="card shadow-sm"> <img src="2.jpg"></rect>
+        <text x="50%" y="50%" fill="#eceeef" dy=".3em">Flower</text></svg> <div class="card-body"> <div class="d-flex justify-content-between align-items-center"> <div class="btn-group"> <button type="button" class="btn btn-sm btn-outline-secondary">View</button> </div> </div> </div> </div> </div>
+         <div class="col"> <div class="card shadow-sm"> <img src="3.jpg"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Tulips</text> <div class="card-body"> <div class="d-flex justify-content-between align-items-center"> <div class="btn-group"> <button type="button" class="btn btn-sm btn-outline-secondary">View</button> </div> </div> </div> </div> </div> <div class="col"> <div class="card shadow-sm"><img src="4.jpg"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Eye</text></svg> <div class="card-body">  <div class="d-flex justify-content-between align-items-center"> <div class="btn-group"> <button type="button" class="btn btn-sm btn-outline-secondary">View</button> </div>  </div> </div> </div> </div> 
+         <div class="col"> <div class="card shadow-sm"> <img src="5.jpg"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Sunflower</text></svg> <div class="card-body"> <div class="d-flex justify-content-between align-items-center"> <div class="btn-group"> <button type="button" class="btn btn-sm btn-outline-secondary">View</button></div></div> </div> </div> </div> <div class="col"> <div class="card shadow-sm"> <img src="6.jpg"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Ganpati</text></svg> <div class="card-body"> <div class="d-flex justify-content-between align-items-center"> <div class="btn-group"> <button type="button" class="btn btn-sm btn-outline-secondary">View</button>  </div> </div> </div> </div> </div> <div class="col"> <div class="card shadow-sm"> <img src="7.jpg"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Man</text></svg> <div class="card-body">  <div class="d-flex justify-content-between align-items-center"> <div class="btn-group"> <button type="button" class="btn btn-sm btn-outline-secondary">View</button> </div>  </div> </div> </div> </div> <div class="col"> <div class="card shadow-sm"> <img src="8.jpg"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Baby</text></svg> <div class="card-body"> <div class="d-flex justify-content-between align-items-center"> <div class="btn-group"> <button type="button" class="btn btn-sm btn-outline-secondary">View</button> </div> </div> </div> </div> </div> <div class="col"> <div class="card shadow-sm"> <img src="9.jpeg"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Cat</text></svg> <div class="card-body"> <div class="d-flex justify-content-between align-items-center"> <div class="btn-group"> <button type="button" class="btn btn-sm btn-outline-secondary">View</button> </div>  
+</div> </div> </div> </div> </div> </div> </div>
+
+<div class="container"> <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"> <div class="col-md-4 d-flex align-items-center"> <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1" aria-label="Bootstrap"> <svg class="bi" width="30" height="24" aria-hidden="true"><use xlink:href="#bootstrap"></use></svg> </a> <span class="mb-3 mb-md-0 text-body-secondary">Nittya Tapre</span> </div> <ul class="nav col-md-4 justify-content-end list-unstyled d-flex"> <li class="ms-3"><a class="text-body-secondary" href="#" aria-label="Instagram"><svg class="bi" width="24" height="24" aria-hidden="true"><use xlink:href="#instagram"></use></svg></a></li> <li class="ms-3"><a class="text-body-secondary" href="#" aria-label="Facebook"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li> </ul> </footer> </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
